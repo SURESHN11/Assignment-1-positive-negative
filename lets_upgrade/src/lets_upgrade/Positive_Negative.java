@@ -1,8 +1,8 @@
-package basic;
+package lets_upgrade;
 
 import java.util.Scanner;
 
-public class PositiveNegative {
+public class Positive_Negative {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -16,7 +16,9 @@ public class PositiveNegative {
 			System.out.println(number + " is negative.");
 		} else {
 			System.out.println("The number is zero.");
-		}	
+		}
+
+		scanner.close();
 	}
 }
 
