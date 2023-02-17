@@ -18,7 +18,7 @@ public static void main(String[] args) {
 	System.out.println("Calculate the sum of the integer");
 	for(int j=0;j<a.length;j++)
 	{
-		sum += a[j];	
+		sum = sum + a[j];	
 	}
 	System.out.println("sum of the integer :" + sum);
 }
